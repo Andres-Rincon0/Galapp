@@ -1,0 +1,39 @@
+{
+    "user1": {
+        "name": "Andres Rincon",
+        "email": "andresrincon483@gmail.com",
+        "phone": "3224324460",
+        "accounts": {
+            "account1": {
+                "name": "Café",
+                "role": "role1"
+            },
+            "account2": {
+                "name": "Cacao",
+                "role": "role1"
+            }
+        }
+    },
+    "user2": {
+        "name": "Valentina Perez",
+        "email": "valentinaperez123@gmail.com",
+        "phone": "3203456677",
+        "accounts": {
+            "account1": {
+                "name": "Café",
+                "role": "role2"
+            }
+        }
+    },
+    "user3": {
+        "name": "Juan Duran",
+        "email": "juanduran456@gmail.com",
+        "phone": "3042234567",
+        "accounts": {
+            "account2": {
+                "name": "Cacao",
+                "role": "role3"
+            }
+        }
+    }
+}

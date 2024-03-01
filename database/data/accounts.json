@@ -1,0 +1,100 @@
+{
+    "account1":{
+        "name": "cafe",
+        "roles":{
+            "role1":{
+                "name": "Gerente",
+                "permissions": {
+                    "form1":{
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    },
+                    "form2":{
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    }
+                }
+            },
+            "role2":{
+                "name": "Admin",
+                "permissions":{
+                    "form1" : {
+                        "create": true,
+                        "read": true,
+                        "update": false,
+                        "delete": false
+                    },
+                    "form2" : {
+                        "create": true,
+                        "read": true,
+                        "update": false,
+                        "delete": false
+                    }
+                }
+            }
+        },
+        "users":{
+            "user1":{
+                "name": "Andres Rincon",
+                "role" : "role1"
+            },
+            "user2" :{
+                "name": "juan Duran",
+                "role" : "role2"
+            }
+        }
+    },
+    "account2":{
+        "name": "cacao",
+        "roles":{
+            "role1":{
+                "name": "Gerente",
+                "permissions":{
+                    "form1":{
+                        "create":true,
+                        "read":true,
+                        "update":true,
+                        "delete": true
+                    },
+                    "form3" : {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": true
+                    }
+                }
+            },
+            "role3": {
+                "name": "Fermentación",
+                "permissions": {
+                    "form1" : {
+                        "create": false,
+                        "read": true,
+                        "update": false,
+                        "delete": false
+                    },
+                    "form3" : {
+                        "create": true,
+                        "read": true,
+                        "update": true,
+                        "delete": false
+                    }
+                }
+            }
+        },
+        "users": {
+            "user1": {
+                "name": "Valentina Perez",
+                "role": "role1"
+            },
+            "user3": {
+                "name": "Yerson Ardila",
+                "role": "role3"
+            }
+        }
+    }
+ }
